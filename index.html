@@ -1,0 +1,125 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multi Level Dropdown</title>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Nav markup goes here-->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="menu-icons">
+                    <i class="icon ion-md-menu"></i>
+                    <i class="icon ion-md-close"></i>
+                </div>
+                <a href="index.html" class="logo">
+                    <i class="icon ion-logo-nodejs"></i>
+                </a>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Data Types
+                            <i class="icon ion-md-arrow-dropdown"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">Strings
+                                    <i class="icon ion-md-arrow-dropdown"></i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="">Quotations</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Template Literals
+                                            <i class="icon ion-md-arrow-dropdown"></i>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Backticks</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Escape Slash</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">String Interpolation</a>
+                                                <!-- https://www.javascripttutorial.net/es6/javascript-template-literals/ -->
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">String()</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Numbers</a>
+                            </li>
+                            <li>
+                                <a href="#">Booleans</a>
+                            </li>
+                            <li>
+                                <a href="#">Arrays</a>
+                            </li>
+                            <li>
+                                <a href="#">Objects</a>
+                            </li>
+                            <li>
+                                <a href="#">Undefined</a>
+                            </li>
+                            <li>
+                                <a href="#">Null</a>
+                            </li>
+                            <li>
+                                <a href="#">BigInt</a>
+                                <!-- https://javascript.info/types -->
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Expressions</a>
+                    </li>
+                    <li>
+                        <a href="#">Conditionals</a>
+                    </li>
+                    <li>
+                        <a href="#">Loops</a>
+                    </li>
+                    <li>
+                        <a href="#">Functions</a>
+                    </li>
+                    <li>
+                        <a href="#">Prototypes</a>
+                    </li>
+                    <li class="move-right btn">
+                        <a href="#">Jonnovative</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--End nav-->
+
+<!--Hero-->
+<section class="hero">
+    <div class="text">
+        <h2>Happily Learning</h2>
+        <h1>JavaScript</h1>
+        <!-- <p>Creating a menu from scratch.</p> -->
+        <!-- <a href="#" class="btn">Learn more</a> -->
+    </div>
+</section>
+<script src="behavior.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/8af330bb1e.js" crossorigin="anonymous"></script> -->
+</body>
+</html>
